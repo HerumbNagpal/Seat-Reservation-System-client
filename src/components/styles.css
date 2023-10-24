@@ -1,0 +1,36 @@
+
+.seatPage{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: center;
+    gap: 5rem;
+    margin: 50px;
+}
+
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(7, 50px); /* Three columns, each 100px wide */
+  grid-gap: 10px; /* Gap between grid items */
+}
+.seat {
+  width: 35px;
+  height: 35px;
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  line-height: 0px;
+}
+.inps{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+.btn{
+  padding: 5px 10px;
+  border: none;
+  background-color: #3498db;
+  color: aliceblue;
+}
