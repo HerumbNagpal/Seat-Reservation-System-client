@@ -10,7 +10,7 @@ export default function Seats() {
     const [showModal, setShowModal] = useState(false);
     const [modalText, setModalText] = useState("")
     const fetchSeats = async () => {
-        const response = await axios.get('http://localhost:3001/seats')
+        const response = await axios.get('https://seat-reservation-byherumb.onrender.com/seats')
         setAllSeats(response.data)
         console.log("My seats", allSeats);
     }
@@ -28,7 +28,7 @@ export default function Seats() {
     const handleBtn = async () => {
         // console.log(`Booking ${numSeats} seats`)
         const data = { numSeats: numSeats }
-        const result = await axios.post('http://localhost:3001/bookMultiple', data, {
+        const result = await axios.post('https://seat-reservation-byherumb.onrender.com/bookMultiple', data, {
             headers: {
                 'Content-Type': 'application/json'
             }
