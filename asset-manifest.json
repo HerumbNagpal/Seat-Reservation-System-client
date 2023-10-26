@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Seat-Reservation-Sstem-client/static/css/main.7292d6ae.css",
+    "main.js": "/Seat-Reservation-Sstem-client/static/js/main.73edcd32.js",
+    "static/js/787.68c44a21.chunk.js": "/Seat-Reservation-Sstem-client/static/js/787.68c44a21.chunk.js",
+    "index.html": "/Seat-Reservation-Sstem-client/index.html",
+    "main.7292d6ae.css.map": "/Seat-Reservation-Sstem-client/static/css/main.7292d6ae.css.map",
+    "main.73edcd32.js.map": "/Seat-Reservation-Sstem-client/static/js/main.73edcd32.js.map",
+    "787.68c44a21.chunk.js.map": "/Seat-Reservation-Sstem-client/static/js/787.68c44a21.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7292d6ae.css",
+    "static/js/main.73edcd32.js"
+  ]
+}
